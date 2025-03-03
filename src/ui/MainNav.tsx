@@ -47,14 +47,8 @@ function MainNav() {
             <span>Audit & Compliance</span>
           </StyledNavLink>
         </li>
-        <li>
-          <StyledNavLink to="/integrations">
-            <PiIntersectDuotone />
-            <span>Integrations</span>
-          </StyledNavLink>
-        </li>
 
-        <div className="mt-48">
+        <div className="mt-80">
           <li>
             <StyledNavLink to="/settings">
               <HiOutlineCog />

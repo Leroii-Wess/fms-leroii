@@ -12,6 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<AppLayout />}>
+          <Route index path="/" element={<Dashboard />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="tenant" element={<Tenant />} />
           <Route path="administrator" element={<Administrator />} />
